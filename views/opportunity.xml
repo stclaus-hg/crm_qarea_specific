@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <openerp>
+    <data>
+        <!-- Add fields to existing view -->
+        <record id="view_crm_opportunity_qarea_form1" model="ir.ui.view" >
+            <field name="name">crm.lead.qarea.inherit2</field>
+            <field name="model">crm.lead</field>
+            <field name="inherit_id" ref="crm.crm_case_form_view_oppor"/>
+            <field name="arch" type="xml">
+                <field name="email_from" position="before">
+       	            <field name="skype"/>
+                </field>
+                <field name="user_id" position="after">
+                    <field name="qarea_budget_size"/>
+                    <field name="qarea_nda"/>
+                    <field name="qarea_project_name"/>
+                    <field name="qarea_redmine_est_link" widget="url" />
+                    <field name="qarea_redmine_project_link" widget="url" />
+                </field>
+            </field>
+        </record>
+    </data>
+</openerp>

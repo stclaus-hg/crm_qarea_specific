@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data noupdate="1">
+        <record id="main_contact_skype" model="crm.lead.main.contact">
+            <field name="name">Skype</field>
+        </record>
+        <record id="main_contact_hangouts" model="crm.lead.main.contact">
+            <field name="name">Hangouts</field>
+        </record>
+        <record id="main_contact_email" model="crm.lead.main.contact">
+            <field name="name">E-mail</field>
+        </record>
+        <record id="main_contact_elance" model="crm.lead.main.contact">
+            <field name="name">Elance</field>
+        </record>
+        <record id="main_contact_odesk" model="crm.lead.main.contact">
+            <field name="name">oDesk</field>
+        </record>
+        <record id="main_contact_phone" model="crm.lead.main.contact">
+            <field name="name">Phone</field>
+        </record>
+        <record id="main_contact_other" model="crm.lead.main.contact">
+            <field name="name">Other</field>
+        </record>
+
+    </data>
+</openerp>

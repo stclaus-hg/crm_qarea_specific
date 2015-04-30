@@ -1,0 +1,1 @@
+import crm_qarea_specific
